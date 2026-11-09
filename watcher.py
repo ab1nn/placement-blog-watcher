@@ -5,7 +5,7 @@ Uses insti_blog.py for the API calls. Seen post ids are kept in
 cache/seen-<blog>.json next to this script. The first run only records the current
 posts, so later runs show just what's new.
 
-  python3 insti_blog_new.py [placement|training|external] [--telegram]
+  python3 watcher.py [placement|training|external] [--telegram]
 
 Settings come from config.json next to this script (command-line flags and
 INSTIAPP_SESSION override it):
